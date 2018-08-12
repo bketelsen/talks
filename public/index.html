@@ -14,42 +14,87 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/landing.css">
 	</head>
 
 	<body>
+<div class="container">
+	<div class="row">
+		<h2 class="text-center">Brian Ketelsen - Talks</h2>
+        <hr/>
+	</div>
+    <div class="row">
 
-		<div>
            
-			<div class="presentations">
-                <a href="/brian.html"> Hacker Slides</a>
-			</div>
+		<div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <h4>
+                    Code Like the Go Team
+                    <span class="label label-info info">
+                        <span data-toggle="tooltip" title="Video">Video <b class="glyphicon glyphicon-eye-open"></b></span>
+                        <span data-toggle="tooltip" title="Event">Gophercon Russia</span>
+                    </span>
+                </h4>
+                <h4>
+					Gophercon Russia - March 17, 2018 
+				</h4>
+                <img src="/images/brian.jpeg" alt="Gophercon Russia">
+                <a href="/gcru18-best.html" class="btn btn-primary col-xs-12" role="button">View</a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
             
-			<div class="presentations">
-                <a href="/demo.html"> Hacker Slides</a>
-			</div>
+		<div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <h4>
+                    Repeatable Builds with vgo
+                    <span class="label label-info info">
+                        <span data-toggle="tooltip" title="Video">Video <b class="glyphicon glyphicon-eye-open"></b></span>
+                        <span data-toggle="tooltip" title="Event">Gophercon Russia</span>
+                    </span>
+                </h4>
+                <h4>
+					Gophercon Russia - March 17, 2018 
+				</h4>
+                <img src="/images/logo.png" alt="Gophercon Russia">
+                <a href="/gcru18-vgo.html" class="btn btn-primary col-xs-12" role="button">View</a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
             
-			<div class="presentations">
-                <a href="/gcru18-best.html"> Code Like the Go Team</a>
-			</div>
+		<div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <h4>
+                    Athens: The Center of Knowledge
+                    <span class="label label-info info">
+                        <span data-toggle="tooltip" title="Video">Video <b class="glyphicon glyphicon-eye-open"></b></span>
+                        <span data-toggle="tooltip" title="Event">GopherconUK</span>
+                    </span>
+                </h4>
+                <h4>
+					GopherconUK - August 3, 2018 
+				</h4>
+                <img src="/images/athens.jpg" alt="GopherconUK">
+                <a href="/golanguk18.html" class="btn btn-primary col-xs-12" role="button">View</a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
             
-			<div class="presentations">
-                <a href="/gcru18-vgo.html"> Repeatable Builds with vgo</a>
-			</div>
-            
-			<div class="presentations">
-                <a href="/golanguk18.html"> Athens: The Center of Knowledge</a>
-			</div>
-            
-			<div class="presentations">
-                <a href="/images.html"> Hacker Slides</a>
-			</div>
-            
-		</div>
 
 
-
-
+    </div>
+</div>
 
 	</body>
+	<script>
+	$(document).ready( function() {
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
 </html>

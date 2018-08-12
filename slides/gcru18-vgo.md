@@ -1,5 +1,13 @@
 # Repeatable Builds with vgo
 
+[twitter]: # (@bketelsen)
+[event]: # (Gophercon Russia)
+[eventurl]: # (https://www.gophercon-russia.ru/)
+[title]: # (Repeatable Builds with vgo)
+[image]: # (/images/logo.png)
+[imagealt]: # (Gophercon Russia)
+[date]: # (March 17, 2018)
+[videourl]: # (https://www.gophercon-russia.ru/)
 
 ---
 

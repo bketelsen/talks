@@ -1,5 +1,13 @@
 # Repeatable Builds with vgo
 
+[twitter]: # (@bketelsen)
+[event]: # (Gophercon Russia)
+[eventurl]: # (https://www.gophercon-russia.ru/)
+[title]: # (Repeatable Builds with vgo)
+[image]: # (/images/logo.png)
+[imagealt]: # (Gophercon Russia)
+[date]: # (March 17, 2018)
+[videourl]: # (https://www.gophercon-russia.ru/)
 
 ---
 
@@ -46,14 +54,14 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 ## vgo
 
 <br/>
-<i class='fa fa-check'></i> Defines Go Modules
+<i class='fas fa-check'></i> Defines Go Modules
 
 
 ---
 ## vgo
 
 <br/>
-<i class='fa fa-check'></i> Proposed Modification to "go" Tool
+<i class='fas fa-check'></i> Proposed Modification to "go" Tool
 
 
 ---

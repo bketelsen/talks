@@ -1,5 +1,13 @@
 # Athens: The Center of Knowledge
 
+[twitter]: # (@bketelsen)
+[event]: # (GopherconUK)
+[eventurl]: # (https://www.gophercon.co.uk/)
+[title]: # (Athens: The Center of Knowledge)
+[image]: # (/images/athens.jpg)
+[imagealt]: # (GopherconUK)
+[date]: # (August 3, 2018)
+[videourl]: # (https://www.gophercon.co.uk/)
 
 ---
 

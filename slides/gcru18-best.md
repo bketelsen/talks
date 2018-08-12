@@ -1,5 +1,14 @@
 # Code Like the Go Team
 
+[twitter]: # (@bketelsen)
+[event]: # (Gophercon Russia)
+[eventurl]: # (https://www.gophercon-russia.ru/)
+[title]: # (Code Like the Go Team)
+[image]: # (/images/brian.jpeg)
+[imagealt]: # (Gophercon Russia)
+[date]: # (March 17, 2018)
+[videourl]: # (https://www.gophercon-russia.ru/)
+
 ---
 ## About Me
 

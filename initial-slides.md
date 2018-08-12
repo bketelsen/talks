@@ -1,4 +1,13 @@
-# Hacker Slides
+# My Talk
+
+[twitter]: # (@bketelsen)
+[event]: # (Gophercon)
+[eventurl]: # (https://www.gophercon.com/)
+[title]: # (Gophers Rule The World)
+[image]: # (/images/logo.png)
+[imagealt]: # (Gophercon)
+[date]: # (August 27, 2018)
+[videourl]: # (https://www.gophercon.com/)
 
 ### Hack together simple slides
 
