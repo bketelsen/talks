@@ -61,6 +61,10 @@
           {{ .ShortBio }}
         </div>
         <div class="tab-pane fade in" id="tab3">
+        {{ range $image := .Images }}
+            <a href="{{$image}}">Headshot</a><br/>
+        {{ end}}
+        <hr/>
             {{ .Links }}
         </div>
       </div>
