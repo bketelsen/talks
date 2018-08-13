@@ -13,12 +13,12 @@
 
 ## About Me
 
-- Microsoft Azure - Cloud Developer Advocate<!-- .element: class='fragment' -->
-- Using Go since 2010<!-- .element: class='fragment' -->
-- Twitter: @bketelsen<!-- .element: class='fragment' -->
-- Github: bketelsen<!-- .element: class='fragment' -->
-- Podcast: gotime.fm<!-- .element: class='fragment' -->
-- Email: bjk@microsoft.com<!-- .element: class='fragment' -->
+- Microsoft Azure - Cloud Developer Advocate <!-- .element: class='fragment' -->
+- Using Go since 2010 <!-- .element: class='fragment' -->
+- Twitter: @bketelsen <!-- .element: class='fragment' -->
+- Github: bketelsen <!-- .element: class='fragment' -->
+- Podcast: gotime.fm <!-- .element: class='fragment' -->
+- Email: bjk@microsoft.com <!-- .element: class='fragment' -->
 
 ---
 
