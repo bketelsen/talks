@@ -415,7 +415,7 @@ Following these conventions will make your source code easier to read, easier to
 
 <br>
 
-<i class='fas fa-twitter'></i>[https://twitter.com/ashleymcnamara](@ashleymcnamara)
+<i class='fas fa-twitter'></i>[@ashleymcnamara](https://twitter.com/ashleymcnamara)
 
 
 ---
