@@ -283,7 +283,7 @@
 
 <br>
 
-<i class='fas fa-twitter'></i>[https://twitter.com/bketelsen]](@bketelsen)
+<i class='fas fa-twitter'></i>[https://twitter.com/bketelsen](@bketelsen)
 
 [<i class='fas fa-github'></i>](bketelsen)
 

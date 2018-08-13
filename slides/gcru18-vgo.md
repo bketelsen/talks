@@ -373,7 +373,7 @@ $ GOPROXY=https://gomods.io vgo build
 
 <br>
 
-@fa[twitter][https://twitter.com/bketelsen]](@bketelsen)
+@fa[twitter][https://twitter.com/bketelsen](@bketelsen)
 
 [@fa[github]](bketelsen)
 
