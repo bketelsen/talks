@@ -283,7 +283,7 @@
 
 <br>
 
-[@fa[twitter]](@bketelsen)
+@fa[twitter][https://twitter.com/bketelsen]](@bketelsen)
 
 [@fa[github]](bketelsen)
 
