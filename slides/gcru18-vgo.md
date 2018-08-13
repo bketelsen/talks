@@ -13,12 +13,12 @@
 
 ## About Me
 
-- Microsoft Azure - Cloud Developer Advocate
-- Using Go since 2010
-- Twitter: @bketelsen
-- Github: bketelsen
-- Podcast: gotime.fm
-- Email: bjk@microsoft.com
+- Microsoft Azure - Cloud Developer Advocate |
+- Using Go since 2010 |
+- Twitter: @bketelsen |
+- Github: bketelsen |
+- Podcast: gotime.fm |
+- Email: bjk@microsoft.com |
 
 ---
 
@@ -30,13 +30,13 @@
 
 ## History of Building Go
 
-- 2009 6g, 6l - Makefiles |
-- 2010 goinstall |
-- 2011 go command |
-- 2014 gopkg.in |
-- 2014 semver proposal |
-- 2015 go 1.5 vendor experiment |
-- 2013-2018 godep,glide,gb,others |
+- 2009 6g, 6l - Makefiles
+- 2010 goinstall 
+- 2011 go command
+- 2014 gopkg.in
+- 2014 semver proposal
+- 2015 go 1.5 vendor experiment
+- 2013-2018 godep,glide,gb,others
 
 ---
 
@@ -68,14 +68,14 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 
 ## vgo
 
-- The Import Compatibility Rule |
-- Minimal Version Selection |
-- Semantic Import Versioning |
-- Graceful API Updates |
-- Reproducible Builds |
-- Verifiable Builds |
-- Verified Builds |
-- Proxy Server Support |
+- The Import Compatibility Rule 
+- Minimal Version Selection 
+- Semantic Import Versioning
+- Graceful API Updates 
+- Reproducible Builds 
+- Verifiable Builds 
+- Verified Builds 
+- Proxy Server Support
 
 
 ---
@@ -256,13 +256,13 @@ $ GOPROXY=https://gomods.io vgo build
 
 ## Proxy Server 
 
-- Keeps copies of modules for faster delivery |
-- Set with environment variable |
+- Keeps copies of modules for faster delivery
+- Set with environment variable 
   + GOPROXY=https://1.5.12.10/proxy vgo build
   + export GOPROXY=https://1.5.12.10/proxy
-- Support for whitelists and/or blacklist |
-- Fixed set of "official" proxies |
-- But you can run your own! |
+- Support for whitelists and/or blacklist
+- Fixed set of "official" proxies 
+- But you can run your own! 
 
 ---
 
@@ -270,21 +270,21 @@ $ GOPROXY=https://gomods.io vgo build
 
 ## Proxy
 
-- Athens! |
-- https://github.com/gomods/athens |
-- Open Source |
-- Created At Microsoft |
-- In cooperation with the Go team |
+- Athens! 
+- https://github.com/gomods/athens 
+- Open Source 
+- Created At Microsoft
+- In cooperation with the Go team
 
 ---
 
 ## Registry
 
-- Athens! |
-- https://github.com/gomods/athens |
-- Open Source |
-- Created At Microsoft |
-- In cooperation with the Go team |
+- Athens! 
+- https://github.com/gomods/athens 
+- Open Source 
+- Created At Microsoft 
+- In cooperation with the Go team 
 
 ---
 
@@ -352,12 +352,12 @@ $ GOPROXY=https://gomods.io vgo build
 
 ## Foundation
 
-- Long Term Plan for Athens |
-- Multiple Companies Participating |
-- Lets Athens live without SPOF |
-- Microsoft |
-- Google |
-- Yandex ? |
+- Long Term Plan for Athens 
+- Multiple Companies Participating 
+- Lets Athens live without SPOF 
+- Microsoft 
+- Google 
+- Yandex ? 
 
 ---
 
