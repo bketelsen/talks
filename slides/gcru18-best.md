@@ -415,8 +415,7 @@ Following these conventions will make your source code easier to read, easier to
 
 <br>
 
-@fa[twitter gp-contact](@ashleymcnamara)
-
+[@fa[twitter]](@ashleymcnamara)
 
 
 ---

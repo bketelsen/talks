@@ -373,13 +373,11 @@ $ GOPROXY=https://gomods.io vgo build
 
 <br>
 
-<i class='fas fa-twitter'></i> @bketelsen
+[<i class='fas fa-twitter'></i>](@bketelsen)
 
-@fa[github gp-contact](bketelsen)
+[<i class='fas fa-github'></i>](bketelsen)
 
-@fa[github gp-contact](gomods)
-
-[GopherSnacks.com](https://www.gophersnacks.com)
+[<i class='fas fa-github'></i>](gomods)
 
 
 ---

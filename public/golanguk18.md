@@ -283,16 +283,15 @@
 
 <br>
 
-@fa[twitter gp-contact](@bketelsen)
+[<i class='fas fa-twitter'></i>](@bketelsen)
 
-@fa[github gp-contact](bketelsen)
+[<i class='fas fa-github'></i>](bketelsen)
 
-@fa[github gp-contact](gomods)
+[<i class='fas fa-github'></i>](gomods)
 
 
 
----?image=assets/image/gitpitch-audience.jpg&opacity=100
-
-@title[Thank You!]
+---
+<!-- .slide: data-background-image="/images/gitpitch-audience.jpg" -->
 
 ## Thank You
