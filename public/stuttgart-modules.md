@@ -9,7 +9,7 @@
 [date]: # (September 20, 2018)
 
 ### Simplify Go Development
-
+Slides: [cda.ms/FV](https://cda.ms/FV)
 <!-- .slide: data-transition="zoom" -->
 
 ---
