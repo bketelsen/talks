@@ -7,9 +7,10 @@
 [image]: # (/images/logo.png)
 [imagealt]: # (Stuttgart Go Meetup)
 [date]: # (September 20, 2018)
+[videourl]: # (https://www.youtube.com/watch?v=V8FQNen4WAA)
 
 ### Simplify Go Development
-
+Slides: [cda.ms/FV](https://cda.ms/FV)
 <!-- .slide: data-transition="zoom" -->
 
 ---
