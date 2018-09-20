@@ -11,7 +11,7 @@
 ### Simplify Go Development
 
 <!-- .slide: data-transition="zoom" -->
-
+Slides [https://cda.ms/FV](https://cda.ms/FV)
 ---
 
 ## The Basics
