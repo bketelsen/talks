@@ -11,94 +11,217 @@
 ### Simplify Go Development
 
 <!-- .slide: data-transition="zoom" -->
-Slides [https://cda.ms/FV](https://cda.ms/FV)
+
 ---
 
 ## The Basics
 
 - [Go Modules Wiki Page](https://cda.ms/FN)
+- Proposal [https://research.swtch.com/vgo](https://research.swtch.com/vgo)
+- Requires Go 1.11
+---
+
+## Two Ways To Use Modules
+
+- Invoke the `go` command outside your $GOPATH
+- Set `GO111MODULE=on` 
 
 ---
 
-## Quick tips
+## Definitions & New Terms
 
-- There is also a speaker view, with notes - press '`s`'
-- Press '`?`' with focus on the presentation for shortcuts
-- <em>You can use html when necessary</em>
-- Share the 'Present' URL with anyone you like!
+- Module
+- go.mod
+- Version Selection
+- Semantic Import Versioning
 
-Note:
-- Anything after `Note:` will only appear here
+--
+
+## Module
+
+```A module is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively, a single version-control repository can hold multiple modules.```
+
+--
+
+## go.mod
+
+A module is a tree (directory) of Go source files with a `go.mod` file in the root directory.
+
+--
+
+## Example go.mod File
+```
+module github.com/my/module/v3
+
+require (
+    github.com/some/dependency v1.2.3
+    github.com/another/dependency v0.1.0
+    github.com/additional/dependency/v4 v4.0.0
+)
+```
+--
+
+## Creating a Module
+
+```
+mkdir thing
+cd thing
+git init
+git remote add origin git@github.com:bketelsen/thing
+go mod init
+```
+* New go.mod file infers module path from VCS
+
+--
+
+## Creating a Module
+
+```
+mkdir thing
+cd thing
+go mod init github.com/bketelsen/thing
+```
+* Manually specify module name
+
+--
+
+## Version Selection
+
+```
+require (
+    github.com/some/dependency v1.2.3
+    github.com/another/dependency v0.1.0
+    github.com/additional/dependency/v4 v4.0.0
+)
+```
+* Semantic Version Numbers
+* Version is part of module path!
+* v1 is implied
+
+--
+
+## Semantic Import Versioning
+
+```
+require (
+    github.com/additional/dependency/v4 v4.0.0
+)
+```
+* /v4 is package name 
+* Allows other versions to be used in the same build
+* Controversial, but makes good sense
 
 ---
 
-## More markdown (fragments)
-
-* static text
-* fragment <!-- .element: class="fragment" -->
-* fragment grow <!-- .element: class="fragment grow" -->
-* fragment highlight-red <!-- .element: class="fragment highlight-red" -->
-* press key down <!-- .element: class="fragment fade-up" -->
-
---
-
-## More markdown (tables)
-
-****
-
-|h1|h2|h <!-- .element: class='fragment' -->
-|-|-| <!-- .element: class='fragment' -->
-|a|b| <!-- .element: class='fragment' -->
-
-****
-
---
-
-## More markdown (code)
-
-```
-version: '2'
-services:
-  slides:
-    image: msoedov/hacker-slides
-
-    ports:
-      - 8080:8080
-    volumes:
-      - ./slides:/app/slides
-    restart: always
-
-    environment:
-     - USER=bob
-     - PASSWORD=pa55
-
-```
-
---
-
-## Local images
-
-![demoPicture](/images/demo.png)
-
-Copy images into slides/images/ & include with MD:
-
-```
-![demoPicture](/images/demo.png)
-
-```
-or HTML:
-
-```
-<img src="/images/demo.png">
-
-```
-
+## DEMO
 
 ---
 
-## Learn more
+## Replace
 
-- [RevealJS Demo/Manual](http://lab.hakim.se/reveal-js)
-- [RevealJS Project/README](https://github.com/hakimel/reveal.js)
-- [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
+```
+module github.com/my/module/v3
+
+require (
+    github.com/some/dependency v1.2.3
+    github.com/another/dependency v0.1.0
+    github.com/additional/dependency/v4 v4.0.0
+)
+replace github.com/foo/bar github.com/fork/bar
+```
+Specify a fork or local development package to use
+
+---
+
+## Replace
+
+```
+replace github.com/foo/bar ../../bar 
+```
+Supports relative paths too
+
+---
+## gohack
+
+[github.com/rogpeppe/gohack](https://github.com/rogpeppe/gohack)
+
+```
+gohack github.com/broken/thing
+```
+* Clones editable version of package in $HOME/gohack/...
+* Modifies go.mod file for you
+
+---
+
+## Big Change
+Download Protocol
+
+Old:
+```
+go get github.com/bketelsen/thing -->
+  git clone https://github.com/bketelsen/thing
+```
+New:
+```
+go get github.com/bketelsen/thing -->
+  GET github.com/bketelsen/thing/@v/list
+  GET github.com/bketelsen/thing/@v/v1.0.0.mod
+  GET github.com/bketelsen/thing/@v/v1.0.0.zip
+```
+
+---
+
+## Module@Version is Immutable
+
+Published modules are immutable.
+
+> Does that mean we could use a CDN?
+
+---
+
+## GOPROXY Environment Variable
+
+```
+export GOPROXY=my.proxy.com
+go get github.com/bketelsen/thing
+```
+Fetches `.mod`, `.info`, `.zip` from proxy server
+
+---
+## REPEATABLE BUILDS
+
+Now you can build even when Github is down!
+* Athens [github.com/gomods/athens](https://github.com/gomods/athens)
+* Documentation[docs.gomods.io](https://docs.gomods.io)
+* export GOPROXY=https://microsoftgoproxy.azurewebsites.net
+
+---
+
+## DEMO
+
+---
+
+## Use Modules Today
+
+* GO111MODULE=on
+* Work outside GOPATH
+* Use a Public Proxy Server
+* Run Your OWN Proxy Server
+
+---
+
+### Questions?
+
+<br>
+
+* [@bketelsen](https://twitter.com/bketelsen)
+* [github.com/bketelsen](https://github.com/bketelsen)
+* [github.com/gomods](https://github.com/gomods)
+
+
+---
+<!-- .slide: data-background-image="/images/gitpitch-audience.jpg" -->
+
+## Thank You
+
 
