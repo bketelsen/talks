@@ -12,3 +12,11 @@
 *.out
 .DS_Store
 slides/gcf.md
+
+.DS_Store
+node_modules
+yarn-error.log
+/dist/
+/cypress/screenshots/
+/__sapper__/
+

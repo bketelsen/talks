@@ -1,5 +1,10 @@
 {
+
+    "scripts": {
+                      "start": "sirv public"
+                                    },
   "dependencies": {
-    "reveal.js": "^3.5.0"
+    "reveal.js": "^3.5.0",
+    "sirv-cli": "^0.4.5"
   }
 }
