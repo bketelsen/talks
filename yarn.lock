@@ -37,9 +37,10 @@ mri@^1.1.0:
   resolved "https://registry.yarnpkg.com/mri/-/mri-1.1.5.tgz#ce21dba2c69f74a9b7cf8a1ec62307e089e223e0"
   integrity sha512-d2RKzMD4JNyHMbnbWnznPaa8vbdlq/4pNZ3IgdaGrVbBhebBsGUUE/6qorTMYNS6TwuH3ilfOlD2bf4Igh8CKg==
 
-reveal.js:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/reveal.js/-/reveal.js-3.5.0.tgz#95545949ad682636acecfdaea05cf0ca892d442d"
+reveal.js@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/reveal.js/-/reveal.js-4.3.0.tgz#6fe91cc84de2e286f039545cb596dbc4d0d52294"
+  integrity sha512-KzZxJjj1gmxVNyplY6g9MiGwtDvZJiYkMvG1Qmaita7vWT/8eoTEK+RuIPLvxDeyxOtTz56u2wrOETVO79qL4A==
 
 sade@^1.4.0:
   version "1.7.3"
